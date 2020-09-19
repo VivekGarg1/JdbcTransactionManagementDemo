@@ -10,7 +10,7 @@ public class JdbcUtil {
 	private static final String DB_USERNAME="root";
 	private static final String DB_PASSWORD="root";
 	private static final String DB_URL="jdbc:mysql://localhost:3306/jdbcdb";
-	private static Connection connection=null;
+	private static Connection connection= null;
 	
 	static {
 		try {
